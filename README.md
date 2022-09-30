@@ -1,5 +1,5 @@
 # Aplicação de Controle de Estoque com Python
-<h4>Projeto desenvolvido em Python e SQL com o objetivo de praticar os conteúdos nele abordados.</h4>
+<h4>Projeto desenvolvido em Python e SQL com o objetivo de praticar o uso das tecnologias nele aplicadas.</h4>
 
 # 1.	Introdução
 Este projeto consiste em desenvolver uma aplicação de controle de estoque de uma empresa fictícia. Esta aplicação permite a criação de novos itens no estoque, permite a exclusão de itens, permite a atualização de valores dos itens e permite a leitura de informações de um item. A aplicação também realiza a autenticação de usuário e registra o histórico de ações realizadas pelos usuários. Para criar a interface gráfica de interação, foi utilizada a biblioteca Tkinter, que permite a criação de janelas interativas na tela do usuário. Para a criação e o gerenciamento do banco de dados, utilizamos a ferramenta SQL SERVER. A integração do Python com o SQL SERVER é realizada através da biblioteca Pyodbc. 
