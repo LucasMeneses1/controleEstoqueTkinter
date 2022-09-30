@@ -1,5 +1,3 @@
-drop DATABASE ProjetoCrud
-
 USE ProjetoCrud
 USE ContosoRetailDW
 
@@ -47,8 +45,162 @@ CREATE TABLE Historico(
 	insert into Usuarios values('usuario3', 'senha3')
 	
 	
-	select * from Usuarios
-
-	select * from Itens
 	
-	select * from Historico
+	
+	
+SELECT * FROM Itens
+WHERE cod_item = '{cod}' AND lote_item = '{lote}';
+
+SELECT * FROM Itens
+WHERE cod_item = '{cod}';
+
+SELECT * FROM Itens
+
+INSERT INTO Historico 
+                        Values(
+                        '{data}', 
+                        '{hora}', 
+                        '{usuario}', 
+                        '{acao}',
+                        '{fk}', 
+                        '-',
+                        '{cod}',
+                        '-',
+                        '{nome}',
+                        '-',
+                        '{lote}',
+                        '',  
+                        '{qtd}' )
+						
+
+select id_item, nome_item, quantidade_item from Itens
+where cod_item = '{cod}' and lote_item = '{lote}'
+
+
+INSERT INTO Historico 
+                        Values(
+                        '{data}', 
+                        '{hora}', 
+                        '{usuario}', 
+                        '{acao}',
+                        '{fk}', 
+                        '{cod}',
+                        '-',
+                        '{nome}',
+                        '-',
+                        '{lote}',
+                        '-',
+                        '{qtd}',
+                        '0') 
+						
+						
+INSERT INTO Historico 
+                        Values(
+                        '{data}', 
+                        '{hora}', 
+                        '{usuario}', 
+                        '{acao}',
+                        '{fk}', 
+                        '{cod}',
+                        '-',
+                        '{nome}',
+                        '-',
+                        '{lote}', 
+                        '-',
+                        '{qtd}', 
+                        '{qtda}')
+						
+						
+select id_item, nome_item, quantidade_item from Itens
+where cod_item = '{cod}' and lote_item = '{lote}'
+
+INSERT INTO Historico 
+                        Values(
+                        '{data}', 
+                        '{hora}', 
+                        '{usuario}', 
+                        '{acao}',
+                        '{fk}', 
+                        '{cod}',
+                        '-',
+                        '{nome}',
+                        '-',
+                        '{lote}', 
+                        '-',
+                        '{qtd}', 
+                        '{qtda}')
+						
+						
+select cod_item from Itens
+where id_item = '{fk}'
+
+INSERT INTO Historico 
+                            Values(
+                            '{data}', 
+                            '{hora}', 
+                            '{usuario}', 
+                            '{acao}',
+                            '{fk}', 
+                            '{cod}', 
+                            '{cod_n}',
+                            '{nome}', 
+                            '-',
+                            '{lote}', 
+                            '-',
+                            '{qtd}',
+                            '')
+							
+select nome_item from Itens
+where id_item = '{fk}'
+
+INSERT INTO Historico 
+                            Values(
+                            '{data}', 
+                            '{hora}', 
+                            '{usuario}', 
+                            '{acao}',
+                            '{fk}', 
+                            '{cod}',
+                            '-',
+                            '{nome}',
+                            '{nome_n}',
+                            '{lote}',
+                            '-',
+                            '{qtd}',
+                            '')
+							
+							
+select lote_item from Itens
+where id_item = '{fk}'
+
+INSERT INTO Historico 
+                            Values(
+                            '{data}', 
+                            '{hora}', 
+                            '{usuario}', 
+                            '{acao}',
+                            '{fk}', 
+                            '{cod}',
+                            '-',
+                            '{nome}',
+                            '-',
+                            '{lote}',
+                            '{lote_n}',
+                            '{qtd}',
+                            '') 
+							
+							
+SELECT quantidade_item FROM Itens
+WHERE cod_item = '{cod}' AND lote_item = '{lote}';
+
+UPDATE Itens
+SET quantidade_item = quantidade_item - {qtd}
+WHERE cod_item = '{cod}' AND lote_item = '{lote}';
+
+SELECT * FROM Usuarios
+WHERE login_usuario = '{lg}';
+
+SELECT senha_usuario FROM Usuarios
+WHERE login_usuario = '{lg}';
+
+
