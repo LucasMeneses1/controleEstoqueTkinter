@@ -30,5 +30,5 @@ Para criar a interface gráfica de interação, foi utilizada a biblioteca Tkint
 *	Biblioteca Tkinter;
 
 # 4.	Fonte dos dados
-*	Os dados foram criados de forma aleatória por mim, utilizando a ferramenta Excel. Os dados foram inseridos no banco de dados de forma automatizada, por meio de RPA (Automação robótica de processos) desenvolvida em Python com a biblioteca Pyautogui (código também disponibilizado no meu repositório -> link). A empresa é fictícia.
+*	Os dados foram criados de forma aleatória por mim, utilizando a ferramenta Excel. Os dados foram inseridos no banco de dados de forma automatizada, por meio de RPA (Automação robótica de processos) desenvolvida em Python com a biblioteca Pyautogui (código também disponibilizado no meu repositório -> https://github.com/LucasMeneses1/rpaItensControleEstoqueLocal). A empresa é fictícia.
 
