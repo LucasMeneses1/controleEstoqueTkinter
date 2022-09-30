@@ -7,8 +7,8 @@ Este projeto consiste em desenvolver uma aplicação de controle de estoque de u
    * a criação de novos itens no estoque, 
    * a exclusão de itens, 
    * a atualização de valores dos itens,
-   * a leitura de informações dos itens. 
-   * A aplicação também realiza a autenticação de usuário e registra o histórico de ações realizadas pelos usuários. 
+   * a leitura de informações dos itens,
+   * a aplicação também realiza a autenticação de usuário e registra o histórico de ações realizadas pelos usuários. 
     
 Para criar a interface gráfica de interação, foi utilizada a biblioteca Tkinter, que permite a criação de janelas interativas na tela do usuário. Para a criação e o gerenciamento do banco de dados, utilizamos a ferramenta SQL SERVER. A integração do Python com o SQL SERVER é realizada através da biblioteca Pyodbc. 
 
